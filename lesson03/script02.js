@@ -33,3 +33,10 @@ console.log(result)
 
 var result02 = lang ==="en" ? language[1] : "error"
 console.log(result02)
+
+
+//--2--
+
+var namePerson = prompt("Введите имя Артём или Максим")
+var profession = namePerson === "Артём" ? console.log("директор") : console.log("студент")
+var profession = namePerson === "Максим" ? console.log("преподаватель") : console.log("студент")
