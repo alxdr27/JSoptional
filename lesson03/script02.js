@@ -23,17 +23,13 @@ switch (lang) {
 }
 
 //через многомерный массив без ифов и switch.
+var choise = confirm("ok - показать на русском, cancel - показать на английском")
 
-var language = [
+var arr = [
     ["Понедельник, Вторник, Среда, Четверг, Пятница, Суббота, Воскресенье"],
     ["Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"]
 ]
-var result = lang ==="ru" ? language[0] : "ошибка"
-console.log(result)
-
-var result02 = lang ==="en" ? language[1] : "error"
-console.log(result02)
-
+console.log(arr[Number(choise)])
 
 //--2--
 
